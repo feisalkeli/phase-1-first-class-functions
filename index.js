@@ -26,8 +26,8 @@ function returnsANamedFunction() {
 }
 
 function returnsAnAnonymousFunction() {
-  let anonymous = function () {
+  let x = function () {
     return `An anonymous function`;
   };
-  return anonymous;
+  return x;
 }
